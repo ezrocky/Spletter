@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Outlast";
+    src: url("../fonts/outlast.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "ManPro";
+    src: url("../fonts/ManPro.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

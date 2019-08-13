@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>spLetter - Step 1</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/other.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="leftbar">
+			<div class="stripe"></div>
+		</div>
+		<div class="container">
+			<div class="header">
+				<div class="header-section">
+						<a href="index.html"><div class="header-item logo">spLetter</div></a>
+						<div class="header-item link"><a href="index.html">main</a></div>
+						<div class="header-item link"><a href="contacts.html">contacts</a></div>
+						<div class="header-item link"><a href="donate.html">donate</a></div>
+				</div>
+			</div>
+			<div class="upper">
+				<h3>Step 1: Choose the letter and draw it.</h3>
+			</div>
+			<div class="section">
+				<div class="letter-section" id="LS">
+					<button id="a">A</button>
+					<button id="b">B</button>
+					<button id="c">C</button>
+					<button id="d">D</button>
+					<button id="e">E</button>
+					<button id="f">F</button>
+					<button id="g">G</button>
+					<button id="h">H</button><br><br>
+					<button id="i">I</button>
+					<button id="j">J</button>
+					<button id="k">K</button>
+					<button id="l">L</button>
+					<button id="m">M</button>
+					<button id="n">N</button>
+					<button id="o">O</button>
+					<button id="p">P</button>
+					<button id="q">Q</button><br><br>
+					<button id="r">R</button>
+					<button id="s">S</button>
+					<button id="t">T</button>
+					<button id="u">U</button>
+					<button id="v">V</button>
+					<button id="w">W</button>
+					<button id="x">X</button>
+					<button id="y">Y</button>
+					<button id="z">Z</button>
+				</div>
+				<div class="uppercontrol">
+					<input type="range" min="8" max="20" id="size" oninput="draw.changeSize()" value="14">
+				</div>
+				<canvas width="300" height="360" id="canvas"></canvas>
+				<div class="lowercontrol">
+					<input type="button" onclick="draw.clearCanvas()" value="clear" id="clear">
+					<input type="color" onchange="draw.changeColor()" value="#0044E2" id="color">
+				</div>
+				<div class="nextbutton">
+					<a href="stepTwo.html"><input id="next" class="btn" type="button" onclick="draw.savePic()" value="NEXT" disabled></a>
+				</div>
+			</div>
+			<div class="footer">
+				Copyright © 2017 spLetter. All rights reserved. v1.0 <br>  Made by <a href="https://github.com/ezrocky">ezrocky</a>
+			</div>
+		</div>
+		<div class="rightbar">
+			<div class="stripe"></div>
+		</div>
+	</div>
+<script src="js/mainscript.js"></script>
+<script src="js/letterscript.js"></script>
+</body>
+</html>

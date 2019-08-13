@@ -1,0 +1,73 @@
+body {
+	overflow-x: hidden;
+}
+
+.letter-section {
+	margin-bottom: 50px;
+}
+
+.letter-section button {
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+.canvas-section {
+	margin-top: 40px;
+}
+
+
+.canvas-section button {
+	border-radius: none;
+}
+
+canvas {
+	border: 1px solid #ccc;
+	margin: 10px;
+	cursor: crosshair;
+	background: #ccc;
+}
+
+.upper {
+	background: #fff;
+	padding: 20px;
+	outline: 10px dashed #3AE2CE;
+	text-align: center;
+}
+
+.nextbutton button {
+	padding: 30px;
+	margin-top: 30px;
+	font-style: Arial;
+	font-size: 15px;
+	border-radius: none;
+}
+
+#clear {
+	padding: 16px;
+}
+
+#color {
+	padding: 13px;
+}
+
+.nextbutton {
+	margin-top: 100px;
+}
+
+textarea {
+	font-size: 15px;
+	width: 700px;
+	height: 450px;
+	resize: none;
+	border: 3px solid #ccc;
+	outline: none;
+}
+
+.result {
+	margin-bottom: 40px;
+} 
+
+
